@@ -31,7 +31,7 @@ export default function Carousel({ items, slidesToShow = 3 }: CarouselProps) {
   return (
     <Slider {...settings}>
       {items.map((item, i) => (
-  <div className="px-10">
+  <div key={i} className="px-10">
     <div className="w-full max-h-[300px] md:max-h-[400px] aspect-[16/9]">
       {item.href ? (
         <a href={item.href} target="_blank" rel="noopener noreferrer">
