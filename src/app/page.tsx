@@ -25,9 +25,14 @@ export default function Home() {
 
       {/* mid section */}
       <section className="bg-white p-8 rounded shadow">
-        <h2 className="text-2xl font-bold mb-4 text-center">Showcase</h2>
-        <Carousel items={showcase} slidesToShow={1} />
-      </section>
+  <div className="flex justify-center mb-4">
+    <a href="/showcase" className="px-3 py-2 rounded hover:bg-white hover:text-blue-600">
+      Showcase
+    </a>
+  </div>
+  <Carousel items={showcase} slidesToShow={1} />
+</section>
+
 
       {/* bottom section */}
       <section className="bg-gray-200 p-8 rounded">
