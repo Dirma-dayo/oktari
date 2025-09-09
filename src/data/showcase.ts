@@ -6,10 +6,10 @@ export const showcase = [
     description: "Web untuk showcase website kamu!" 
   },
   { 
-    name: "secretary's stuff", 
-    img: "/showcase2.png", 
-    href: "#",
-    description: "Internal tools for secretary management." 
+    name: "Jurnal Kelas", 
+    img: "/jurnal.png", 
+    href: "https://jurnal-kelas.vercel.app/dashboard",
+    description: "Jurnaling untuk kelas." 
   },
   { 
     name: "uang kas thing", 

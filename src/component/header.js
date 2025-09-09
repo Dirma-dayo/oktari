@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ThemeToggle from "../component/ThemeToggle";
 
 export default function Header() {
   return (
@@ -15,7 +16,7 @@ export default function Header() {
       </Link>
 
       {/* navbar */}
-      <nav className="flex space-x-4">
+      <nav className="flex items-center space-x-4">
         <a href="/" className="px-3 py-2 rounded hover:bg-white hover:text-blue-600">
           Home
         </a>
@@ -28,6 +29,8 @@ export default function Header() {
         <a href="/information" className="px-3 py-2 rounded hover:bg-white hover:text-blue-600">
           Information
         </a>
+
+
       </nav>
     </header>
   );
