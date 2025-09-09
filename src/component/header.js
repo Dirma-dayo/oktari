@@ -1,5 +1,4 @@
 import Link from "next/link";
-import ThemeToggle from "../component/ThemeToggle";
 
 export default function Header() {
   return (
