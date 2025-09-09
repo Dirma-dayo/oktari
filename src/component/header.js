@@ -7,29 +7,25 @@ export default function Header() {
       className="p-4 flex items-center justify-between"
     >
       {/* logo */}
-      <Link href="/">
-        <div className="flex items-center cursor-pointer">
-          <img src="/logo small.png" alt="logo" className="h-10 w-10 mr-2" />
-          <h1 className="text-xl font-bold"></h1>
-        </div>
+      <Link href="/" className="flex items-center cursor-pointer">
+        <img src="/logo small.png" alt="logo" className="h-10 w-10 mr-2" />
+        <h1 className="text-xl font-bold"></h1>
       </Link>
 
       {/* navbar */}
       <nav className="flex items-center space-x-4">
-        <a href="/" className="px-3 py-2 rounded hover:bg-white hover:text-blue-600">
+        <Link href="/" className="px-3 py-2 rounded hover:bg-white hover:text-blue-600">
           Home
-        </a>
-        <a href="/showcase" className="px-3 py-2 rounded hover:bg-white hover:text-blue-600">
+        </Link>
+        <Link href="/showcase" className="px-3 py-2 rounded hover:bg-white hover:text-blue-600">
           Showcase
-        </a>
-        <a href="/course" className="px-3 py-2 rounded hover:bg-white hover:text-blue-600">
+        </Link>
+        <Link href="/course" className="px-3 py-2 rounded hover:bg-white hover:text-blue-600">
           Course
-        </a>
-        <a href="/information" className="px-3 py-2 rounded hover:bg-white hover:text-blue-600">
+        </Link>
+        <Link href="/information" className="px-3 py-2 rounded hover:bg-white hover:text-blue-600">
           Information
-        </a>
-
-
+        </Link>
       </nav>
     </header>
   );

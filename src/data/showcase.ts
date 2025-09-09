@@ -15,6 +15,6 @@ export const showcase = [
     name: "uang kas thing", 
     img: "/showcase3.png", 
     href: "#",
-    description: "A simple money tracking app." 
+    description: "Web untuk melihat uang kas kelas." 
   },
 ];

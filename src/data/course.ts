@@ -17,4 +17,22 @@ export const course = [
     href: "",
     description: "blabla" 
   },
+  { 
+    name: "kurssus cd", 
+    img: "/gmba3.png", 
+    href: "",
+    description: "blabla" 
+  },
+  { 
+    name: "kurssus c", 
+    img: "/gmba3.png", 
+    href: "",
+    description: "blabla" 
+  },
+  { 
+    name: "kurssus c", 
+    img: "/gmba3.png", 
+    href: "",
+    description: "blabla" 
+  },
 ];

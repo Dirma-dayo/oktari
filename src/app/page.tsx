@@ -21,7 +21,7 @@ export default function Home() {
             Welcome to Octary
           </h2>
           <p className="mt-2 text-gray-700 dark:text-gray-300">
-            some short description here, like neofetch output
+            Your code, your legacy.
           </p>
           <Button text="Start chatbot" href="/chatbot" />
         </div>
@@ -46,9 +46,7 @@ export default function Home() {
           bottom section
         </h2>
         <Carousel items={course} />
-        <p className="mt-2 text-gray-700 dark:text-gray-300">
-          extra info, links, etc.
-        </p>
+
       </section>
     </div>
   );
