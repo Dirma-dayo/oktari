@@ -3,7 +3,7 @@
 import React, { useState, MouseEvent } from "react";
 import { Github, Twitter, Instagram, Youtube } from "lucide-react";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { motion, cubicBezier, Variants, TargetAndTransition } from "framer-motion";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -18,7 +18,7 @@ const Footer = () => {
     });
   };
 
-  const footerVariants = {
+  const footerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -26,16 +26,16 @@ const Footer = () => {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.5, ease: "easeOut" },
+      transition: { duration: 0.5, ease: cubicBezier(0.17, 0.67, 0.83, 0.67) },
     },
   };
 
-  const linkHoverEffect = {
+  const linkHoverEffect: TargetAndTransition = {
     scale: 1.05,
     y: -2,
     transition: { type: "spring", stiffness: 300 },
