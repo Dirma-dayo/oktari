@@ -44,7 +44,7 @@ const content = [
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
         <img
-          src="https://creamteam.vercel.app/ak.jpg"
+          src="/guar"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -60,7 +60,7 @@ const content = [
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
         <img
-          src="https://creamteam.vercel.app/ak.jpg"
+          src="/guar"
           width={300}
           height={300}
           className="h-full w-full object-cover"

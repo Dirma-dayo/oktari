@@ -28,11 +28,6 @@ const navItems = [
 
 const socialItems = [
   {
-    title: "Twitter",
-    icon: <Twitter className="nav-icon" />,
-    href: "https://twitter.com",
-  },
-  {
     title: "GitHub",
     icon: <Github className="nav-icon" />,
     href: "https://github.com",

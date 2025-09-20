@@ -124,15 +124,6 @@ const Footer = () => {
           <div className="flex space-x-4">
             <motion.a
               whileHover={linkHoverEffect}
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-blue-400 transition-colors duration-200"
-            >
-              <Twitter size={20} />
-            </motion.a>
-            <motion.a
-              whileHover={linkHoverEffect}
               href="https://github.com"
               target="_blank"
               rel="noopener noreferrer"
