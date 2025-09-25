@@ -19,7 +19,7 @@ export default function ContactPage() {
           {/* Gmail */}
           <a
             href="/gtwawokawokaowokaowko"
-            {/* mailto:yourmail@gmail.com use this lter*/}
+            /* mailto:yourmail@gmail.com use this lter */
             className="flex flex-col items-center justify-center gap-2 px-4 py-6 rounded-xl font-semibold bg-red-600 hover:bg-red-500 text-white transition"
           >
             <Mail className="w-6 h-6" /> Gmail
