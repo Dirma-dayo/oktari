@@ -9,8 +9,8 @@ export default function Home() {
     <LenisProvider>
       <main>
         <Hero />
-        <Features />
         <Community />
+        <Features />
         <Footer />
       </main>
     </LenisProvider>

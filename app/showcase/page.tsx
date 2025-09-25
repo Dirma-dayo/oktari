@@ -46,7 +46,7 @@ export default function ShowcasePage() {
           key={item.name}
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: i * 0.15, duration: 0.5 }}
+          transition={{ delay: i * 0., duration: 0.2 }}
           whileHover={{ scale: 1.03, rotate: -1 }}
         >
           <Link
